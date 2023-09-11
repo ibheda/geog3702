@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "mountmarcyGEOJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "MountMarcy": 5343 }, "geometry": { "type": "Point", "coordinates": [ -8229109.005367408506572, 5482907.57602403126657 ] } }
+]
+}
