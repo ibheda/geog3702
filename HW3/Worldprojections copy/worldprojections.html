@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projections</title>
+</head>
+<body>
+    <h1>In this project I learned how to display images in different projections</h1>
+    
+    <h2 style="color:red">How I displayed the Map in different projections</h2>
+    <p>I displayed my map in different projections by first downloading the vector file and adding it into QGIS. I ran Indacatric Mapper over the software in order to create circles that could show the size differential of areas on the map. Then I clicked on the projection on the bottom to allow me to view many different projections. I was able to explore and change the projection of the map many times. As I changed the projection, I saw how different projections changed the distortion of size across the globe. </p>
+    
+    <h2>WGS84 Projection</h2>
+        <p>In this projection I noticed that the poles of the map had their shape distorted. The poles were widened and stretched out, countering some of the effects of a size with a tradeoff for shape<p>
+    <a href=".//maps/4326.png">
+    <img src=".//maps/4326.png" alt="WGS84" width='500px'>
+    </a>
+    <h2>Aitoff Projection</h2>
+    <p>I noticed that in this projection the map seems to retain size better, than the last and showcases the more spherical shape of the globe. However, the sizes at the top were still disproportianlly large compared to those at the equator</p>
+    <a href=".//maps/54043.png">
+    <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
+    </a> 
+    <h2>Winkel-Tripel</h2> 
+    <p>This projection does a much better job of preserving size than the Mercator Projection, It also compromises with it by still keeping shape relatively intact. However, due to the bent nature of the map, this makes the directionality imperfect which would make it difficult for naviagtors in older times.</p>
+    <a href=".//winkel53018.png">
+    <img src=".//winkel53018.png" width='500px'>
+    </a>
+    <h2>North Pole Azimuthal</h2>
+    <p>This map does a good job of representing the polar region and the northern countries. I also like how it shows the connectivity of the northern hemisphere, something that is normally not seen on maps. It is often difficult to see how one could sail over the Arctic in order to traverse from one continent to another. Some cons of this projection though are that size extremely distorted towards the southern hemishphere. Also towards the southern hemishpere the shapes tend to me distorted and direction is distorted due to this stretching</p>
+    <a href=".//North_Pole_Azimuthal_Equdistant_102016.png">
+    <img src=".//North_Pole_Azimuthal_Equdistant_102016.png" width='500px'>
+    </a>
+    <h2>Mercator</h2>
+    <p>This projection is a classic that has been used around the world. It keeps shape and directionality very well. This is a benefit in understanding how countries look and being able to plot from country to country. However, it grossly mishapes size making the polar regions considerably larger than anything seen on the equator.  </p>
+    <a href=".//mercator3857.png">
+    <img src=".//mercator3857.png" width='500px'>
+</a>
+<h2>Goode Homolosine Land</h2>
+<p>This map does a great job of maintaining size and shape, all the circles are close to the same size and while there is some distortion in the ocean it is minimal. Directionality is completely lost unfortunately and there is large cuts in the ocean. The map and Indacatrix software was not great at representing the cuts in the ocean.</p>
+    <a href=".//Goode_Homolosine_Land_54052.png">
+        <img src=".//Goode_Homolosine_Land_54052.png" width='500px'>
+</a> 
+    <h2>Equal Conic</h2>
+    <p>This map is similar to the northern azimuthal projection and holds some similar characterisitcs. I was looking around my dorm and saw that I had a map of the United States in a similar projection, zoomed in of course. I thought this was interesting because on the map you can see that the tangent seems to hit around the United States meaning that our country is well as opposed to other regions on the planet.</p>
+    <a href=".//eqconic54027.png">
+        <img src=".//eqconic54027.png" width='500px'>
+</a>
+    <h2>Equal Area Cylinder</h2>
+    <p>This map is similar to the mercator projection in that it is also based off of a cylindrical projection, This map does a better job  of maintaining size. It seems like a purer version of the mercator in the way that the tops weren't stretched vertically in order to maintain shape. This does come at a cost as the poles are very distorted.</p>
+    <a href=".//eqarea54034_1.png">
+        <img src=".//eqarea54034_1.png" width='500px'>
+</a>
+    <h2>Bonne</h2>
+    <p>This map was one of the most interesting that I found. The shape of the map is very interesting and it does a great job of preserving size and shape towards the prime meridian. Towards the edges of the map all of these effects become lessened and there is a lot less preservation of size, shape and direction. I feel like this map highlights Africa in a way that other maps often overlook</p>
+    <a href=".//Bonne54024.png">
+        <img src=".//Bonne54024.png" width='500px'>
+</a>
+    <h2>Data used for this project</h2>
+    <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
+</body>
+</html>
