@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Points</title>
+</head>
+<body>
+    <h1>All Homework Control Points and Another Important Links</h1>
+
+    <nav>
+        <ul>
+            <li><a href="https://github.com/ibheda/geog3702/blob/main/COPYunrect_unc_topo_1993%20.tiff.points">HW4 Control Points</a></li>
+            <li><a href="https://github.com/ibheda/geog3702/blob/main/controlpoints.points">HW5 Control Points</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
