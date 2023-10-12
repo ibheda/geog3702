@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6</title>
+</head>
+<body>
+<h1>Homework 6: Census data choropleth </h1>
+<h2>Ishan Bheda</h2>
+<h3>This map shows the percentage of people paying less than 300 dollars per month in rent per county in Texas. I created this ratio using data of the total people paying this amount and divided it by the total population of each county. I was interested to see which county is theoretically the cheapest to live in/has the most poeple paying the lowest sum of rent.</h3>
+<!-- Your map goes here -->
+<a href="./HW6.2/Naturalbreaks.png">
+    <img src="./HW6.2/Naturalbreaks.png" alt="Natural Breaks Classification" width='500px'>
+    <p>The Natural Breaks method served well in this map to show a lot of geographic variety. I like how it shows many different examples of each different class. However, one drawback is that the classes are uncevenly distributed with the last two being larger than the others. This makes the data harder to read and more vague within the higher classes.  </p>
+    </a>
+<a href="./HW6.2/Equalinterval.png">
+    <img src="./HW6.2/Equalinterval.png" alt="Equal Interval Classification" width='500px'>
+    <p>The Equal Interval method was my personal favorite due to it's simplicity on this map. The equal counts for all of the data makes it much easier to read and much simpler in the eye of the viewer. The drawbacks are that a lot of the data ends up falling into the second class. Also the first 3 classes are bigger than the natural breaks method so the data is slightly more vague at the lower level. </p>
+    </a>
+<a href="./HW6.2/equalamount.png">
+    <img src="./HW6.2/equalamount.png" alt="Equal Count (Quantile) Classification" width='500px'>
+    <p>The Equal Count (Quantile) Method of classification was the my least favorite by far for this excercise. The only real benefit I can see opposed to the others is that the third class is more specific. However, the last class has a huge range and is extremely vague. This method also forced 4 classes despite me specifying 5, due to one of the classes being exactly 4. </p>
+    </a>
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="./HW6.2/texasdata.csv"> Rent Dataset </a>
+    <p></p>
+    <a href="./HW6.2/Texaspopdata.csv"> Population Dataset </a>
+
+</body>
+</html>
